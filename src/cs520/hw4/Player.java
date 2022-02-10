@@ -18,6 +18,7 @@ public Player( String name) {
 	name=this.name;
 }
 
+
 public int getNumber() {
 	return number;
 }

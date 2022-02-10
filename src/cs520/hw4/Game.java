@@ -94,6 +94,6 @@ public class Game {
 	opponentPoints++;
 	//printing the statement
 	System.out.print("Final score: "+this.teamName+" "+teamPoints+", "+this.opponentName+" "+opponentPoints);
-	System.out.println();
+	
 	}
 	}

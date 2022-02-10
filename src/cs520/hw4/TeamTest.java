@@ -16,9 +16,9 @@ public class TeamTest {
 		// Convert number argument from string to integer
 		int uniformNumber = Integer.parseInt(number);
 
-		// Instantiate Player and set its instance variables
+		
 		Player player = new Player(name);
-		//player.setName(name); 
+		player.setName(name); 
 		
 		player.setNumber(uniformNumber);
 		player.setPosition(position);
@@ -32,14 +32,13 @@ public class TeamTest {
 
 	public static void main(String[] args) {
 		ArrayList<Player> players=new ArrayList<Player>();
-		// Initialize Scanner object
+	
 		Scanner scanner = null;
 
 		try {
 			File file = new File("team.txt");
 			scanner = new Scanner(file);
-			// initialize totalScoringAverage
-//			double totalScoringAverage = 0.0;
+		
 			while(scanner.hasNextLine()) {
 				String number = scanner.nextLine();
 				String name = scanner.nextLine();
@@ -49,20 +48,11 @@ public class TeamTest {
                players.add(player);
 				// Go to the next line in order to ignore the fifth line "----"
 				scanner.nextLine();
-				//System.out.println ("#"+number+": "+name+ "("+position +","+year+ ")");
-				// Pass the variables from each loop to createPlayer() method
-				//System.out.println ("#"+number+": "+name+ "("+position +","+year+ ")");
+				
 				
 			}
-			// Instantiate File object with file input of team.txt
-			// Instantiate Scanner object with file input
 			
-			
-			// Loop through scanner input file, reading the first four lines into variables
-		
 
-				// Add the returned value from the createPlayer() method to totalScoringAverage
-//				totalScoringAverage += playerScore;
 			
 			String[] opponents = new String[] {"BC", "Northeastern", "Harvard",
 					"MIT", "UMass"};
@@ -73,18 +63,16 @@ public class TeamTest {
 				game.setDate(2,3,2021);
 				game.setPlayers(players);
 				game.simulateGame();
-				
+				System.out.println("\n");
 			}
-			// compute the average for all players
-//			double playerAverage = totalScoringAverage / 10;
 
-//			System.out.println("\nAverage score:  " + playerAverage);
+
 		} catch (Exception e) {
 			e.printStackTrace();
-			// Display friendly message to console when an Exception is caught
+			
 			System.out.println("Sorry, but an error has occurred. Check and re-run the program.");
 		} finally {
-			// Check if scanner is before closing it
+			
 			if (scanner != null) {
 				scanner.close();
 			}

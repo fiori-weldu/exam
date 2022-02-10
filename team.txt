@@ -11,27 +11,27 @@ Jr.
 23
 Case McCarthy
 D
-Jr.	
+Jr.
 -----
 55
 Thomas Jarman
 D
-So.	
+So.
 -----
 53
 Thomas Jarman
 D
-So.	
+So.
 -----	
 17
 Alex Vlasic
-D	
+D
 Jr.
 -----
 18
-Cade Webber	
+Cade Webber
 D
-So.	
+So.
 -----
 19
 Logan Cockerill
@@ -45,6 +45,6 @@ So.
 -----	
 11
 Luke Tuch
-F	
+F
 So.
 -----	
