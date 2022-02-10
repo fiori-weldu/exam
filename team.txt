@@ -1,13 +1,50 @@
-player 1 uniform number
-player 1 name
-player 1 position
-player 1 year
+50
+George Washington
+F
+So.
 -----
-player 2 uniform number
-player 2 name
-player 2 position
-player 2 year
+12
+John Adams
+D
+Jr.
 -----
-etc...
-
-Overwrite this file with your team.txt from the previous assignment
+23
+Case McCarthy
+D
+Jr.	
+-----
+55
+Thomas Jarman
+D
+So.	
+-----
+53
+Thomas Jarman
+D
+So.	
+-----	
+17
+Alex Vlasic
+D	
+Jr.
+-----
+18
+Cade Webber	
+D
+So.	
+-----
+19
+Logan Cockerill
+F
+Sr.
+-----	
+10
+Nick Zabane
+F
+So.
+-----	
+11
+Luke Tuch
+F	
+So.
+-----	
